@@ -1,0 +1,20 @@
+type Patient @model {
+  id: ID!
+  username: String
+  firstname: String
+  lastname: String
+  email: String
+  ansone: String!
+  anstwo: String!
+  ansthree: String!
+  ansfour: String!
+  ansfive: String!
+  anssix: String!
+  ansseven: String!
+  anseight: String!
+  ansnine: String!
+  ansten: String!
+  doctorname: String
+  appdate: String
+  apptime: String
+}
